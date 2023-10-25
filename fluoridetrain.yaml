@@ -4,7 +4,7 @@ metadata:
   name: data-fluoride-train # executable id, must be unique across all your workflows (YAML files)
   annotations:
     scenarios.ai.sap.com/description: "Learning how to ingest data to workflows"
-    scenarios.ai.sap.com/name: "House Price (Tutorial) DC" # Scenario name should be the use case
+    scenarios.ai.sap.com/name: "Fluoride Level Predictor" # Scenario name should be the use case
     executables.ai.sap.com/description: "Generate metrics"
     executables.ai.sap.com/name: "training-metrics" # Executable name should describe the workflow in the use case
     artifacts.ai.sap.com/housedataset.kind: "dataset" # Helps in suggesting the kind of artifact that can be attached.
