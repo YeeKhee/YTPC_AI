@@ -15,9 +15,9 @@ spec:
   inputs:
     artifacts:
       - name: fluoridemodel # placeholder name, do not add `-` in value use only alphanumeric chars
-    # parameters:
-    #   - name: greetmessage # placeholder name
-    #     type: string # required for every parameters
+    parameters:
+      - name: greetmessage # placeholder name
+        type: string # required for every parameters
   template:
     apiVersion: "serving.kserve.io/v1beta1"
     metadata:
@@ -46,5 +46,5 @@ spec:
           env:
             - name: STORAGE_URI # Required
               value: "{{inputs.artifacts.fluoridemodel}}" # Required reference from artifact name, see above
-            # - name: greetingmessage # different name to avoid confusion
-            #   value: "{{inputs.parameters.greetmessage}}"
+            - name: greetingmessage # different name to avoid confusion
+              value: "{{inputs.parameters.greetmessage}}"
