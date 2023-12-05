@@ -4,7 +4,7 @@ metadata:
   name: fluoride-serve # executable ID, must be unique across your SAP AI Core instance, for example use `server-pipeline-yourname-1234`
   annotations:
     scenarios.ai.sap.com/description: "Predict fluoride level"
-    scenarios.ai.sap.com/name: "Predict fluoride level"
+    scenarios.ai.sap.com/name: "Fluoride-prediction"
     executables.ai.sap.com/description: "Create online server to make live predictions"
     executables.ai.sap.com/name: "server"
     artifacts.ai.sap.com/housepricemodel.kind: "model" # Suggest the kind of artifact to input.
